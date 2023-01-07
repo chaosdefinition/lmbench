@@ -1,0 +1,7 @@
+# Ignore everthing
+*
+
+# Except itself and Makefiles
+!.gitignore
+!Makefile
+!Makefile.orig
