@@ -177,7 +177,7 @@ main(int ac, char **av)
 
     realtime = 0;
 
-    while ((c = getopt(ac, av, "ru:W:N:")) != EOF) {
+    while ((c = getopt(ac, av, "ru:P:W:N:")) != EOF) {
 	switch (c) {
 	case 'r':
 	    realtime = 1;
